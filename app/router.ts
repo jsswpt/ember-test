@@ -7,5 +7,8 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  // Add route declarations here
+  this.route('index', { path: '/' });
+  this.route('articles');
+  this.route('article', { path: '/articles/:article_id' });
+  this.route('not-found', { path: '/404' });
 });
