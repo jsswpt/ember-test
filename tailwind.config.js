@@ -35,7 +35,7 @@ module.exports = {
         ...mapObjectToTheme(elSizes, 'el', null, 'rem'),
         ...mapObjectToTheme(elPaddings, 'el', 'px', 'rem'),
       },
-      screens: mapObjectToTheme(screenSizes, null, 'rem'),
+      screens: mapObjectToTheme(screenSizes, null, null, 'rem'),
     },
     colors: {
       // Base colors
